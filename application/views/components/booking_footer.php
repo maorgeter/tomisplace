@@ -13,8 +13,8 @@
             &
             <a href="https://easyappointments.org" target="_blank">E!A</a>
         </span>
-
-        <!-- <span class="footer-options">
+<!-- 
+        <span class="footer-options">
             <span id="select-language" class="badge bg-secondary">
                 <i class="fas fa-language me-2"></i>
                 <?= ucfirst(config('language')) ?>
