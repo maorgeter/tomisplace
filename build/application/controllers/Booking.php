@@ -174,7 +174,7 @@ class Booking extends EA_Controller
         $book_advance_timeout = setting('book_advance_timeout');
         $theme = request('theme', setting('theme', 'default'));
 
-        if (empty($theme) || !file_exists(__DIR__ . '/../../assets/css/themes/' . $theme . '.min.css')) {
+        if (empty($theme) || !file_exists(__DIR__ . '/../../assets/css/themes/' . $theme . '.css')) {
             $theme = 'default';
         }
 

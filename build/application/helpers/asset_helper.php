@@ -32,8 +32,8 @@ function asset_url(string $uri = '', string $protocol = null): string
         $uri = str_replace('.js', '.min.js', $uri);
     }
 
-    if (str_contains(basename($uri), '.css') && !str_contains(basename($uri), '.min.css') && !$debug) {
-        $uri = str_replace('.css', '.min.css', $uri);
+    if (str_contains(basename($uri), '.css') && !str_contains(basename($uri), '.css') && !$debug) {
+        $uri = str_replace('.css', '.css', $uri);
     }
 
     return base_url($uri . $cache_busting_token, $protocol);

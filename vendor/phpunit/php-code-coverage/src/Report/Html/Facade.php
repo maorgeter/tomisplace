@@ -115,8 +115,8 @@ final class Facade
     {
         $dir = $this->directory($target . '_css');
 
-        copy($this->templatePath . 'css/bootstrap.min.css', $dir . 'bootstrap.min.css');
-        copy($this->templatePath . 'css/nv.d3.min.css', $dir . 'nv.d3.min.css');
+        copy($this->templatePath . 'css/bootstrap.css', $dir . 'bootstrap.css');
+        copy($this->templatePath . 'css/nv.d3.css', $dir . 'nv.d3.css');
         copy($this->templatePath . 'css/style.css', $dir . 'style.css');
         copy($this->templatePath . 'css/custom.css', $dir . 'custom.css');
         copy($this->templatePath . 'css/octicons.css', $dir . 'octicons.css');
