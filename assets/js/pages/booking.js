@@ -358,7 +358,7 @@ App.Pages.Booking = (function () {
 
             $selectProvider.empty();
 
-            $selectProvider.append(new Option(lang('please_select'), ''));
+            // $selectProvider.append(new Option(lang('please_select'), ''));
 
             vars('available_providers').forEach((provider) => {
                 // If the current provider is able to provide the selected service, add him to the list box.

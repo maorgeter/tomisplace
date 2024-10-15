@@ -1,18 +1,12 @@
 #!/bin/bash
 
-# Base directory where the assets folder is located
-base_dir="assets"
+# Watch SCSS files in assets/css folder and compile to CSS without .map files
+sass --watch assets/css:assets/css --no-source-map &
 
-# Find all .scss files within the assets directory recursively and compile both regular .css and .min.css
-find "$base_dir" -name "*.scss" | while read file; do
-  # Extract the directory and file name without extension
-  dir=$(dirname "$file")
-  filename=$(basename "$file" .scss)
+# Watch SCSS files in assets/css/layouts folder and compile to CSS without .map files
+sass --watch assets/css/layouts:assets/css/layouts --no-source-map &
 
-  # Compile regular CSS
-  sass "$file":"$dir/$filename.css" --no-source-map
+sass --watch assets/css/themes:assets/css/themes --no-source-map &
 
-  # Compile minified CSS
-  sass "$file":"$dir/$filename.min.css" --style compressed --no-source-map
-done
-
+# Wait for both processes to finish
+wait

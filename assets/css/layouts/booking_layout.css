@@ -26,18 +26,17 @@ body {
 #book-appointment-wizard {
   min-height: 480px;
   padding: 0;
-  margin: auto;
+  margin: 0 auto;
 }
 
 #book-appointment-wizard #header {
   overflow: auto;
   height: auto;
-  padding: 20px 15px;
+  padding: 25px 25px;
   background: #e7dbd3;
 }
 
 #book-appointment-wizard #company-name {
-  float: none;
   display: block;
   text-align: center;
   font-size: 24px;
@@ -48,12 +47,12 @@ body {
 #book-appointment-wizard #company-name #company-logo {
   display: block;
   margin: 14px auto;
-  max-height: 56px;
+  max-height: 300px;
 }
 #book-appointment-wizard #company-name .display-selected-service,
 #book-appointment-wizard #company-name .display-selected-provider {
-  color: #225d4d;
-  border-right-color: #225d4d !important;
+  color: #000000;
+  border-right-color: #000000 !important;
   font-size: 60%;
   font-weight: normal;
 }
@@ -63,7 +62,7 @@ body {
   display: block;
   overflow: auto;
   margin: 15px auto;
-  width: 190px;
+  width: 200px;
 }
 
 #book-appointment-wizard #book-appointment-form #book-appointment-submit {
@@ -102,6 +101,7 @@ body {
   float: none;
   margin: 15px auto;
   text-align: center;
+  direction: rtl;
 }
 
 #book-appointment-wizard .wizard-frame .command-buttons .btn {
@@ -111,6 +111,7 @@ body {
 
 #book-appointment-wizard .wizard-frame .command-buttons .btn:last-child {
   margin-right: 0;
+  direction: rtl;
 }
 
 #book-appointment-wizard .wizard-frame .flatpickr-calendar {
@@ -127,10 +128,10 @@ body {
   display: inline-block;
   height: 35px;
   width: 35px;
-  float: left;
-  background: #225d4d;
+  float: right;
+  background: #000000;
   padding: 8px;
-  margin-right: 12px;
+  margin-left: 12px;
   margin-top: 6px;
   border-radius: 0.25rem;
   transition: all 0.3s linear;
@@ -144,7 +145,7 @@ body {
   font-size: 12px;
   display: block;
   text-align: center;
-  color: #0bb98d;
+  color: #ffffff;
   transition: all 0.3s linear;
   cursor: default;
 }
@@ -153,15 +154,15 @@ body {
   display: inline-block;
   height: 45px;
   width: 45px;
-  float: left;
+  float: right;
   background: #fff;
   padding: 7px;
-  margin-right: 13px;
+  margin-left: 13px;
   margin-top: 0;
 }
 
 #book-appointment-wizard .active-step strong {
-  color: #429a82;
+  color: #000000;
   font-size: 21px;
 }
 
@@ -188,9 +189,9 @@ body {
 }
 
 #book-appointment-wizard #available-hours .selected-hour {
-  background-color: #439a82;
-  border-color: #439a82;
-  color: white;
+  background-color: #e7dbd3;
+  border-color: #e7dbd3;
+  color: rgb(0, 0, 0);
 }
 
 #book-appointment-wizard .span3 {
@@ -279,23 +280,20 @@ body {
   }
   #book-appointment-wizard #company-name {
     text-align: left;
-    display: inline-block;
-    float: left;
+    display: block;
     margin: 0 auto;
     min-width: 400px;
     line-height: 1.4;
   }
   #book-appointment-wizard #company-name #company-logo {
-    display: inline-block;
-    float: left;
-    margin-right: 14px;
+    display: block;
     margin-top: 0;
     margin-bottom: 0;
   }
   #book-appointment-wizard #steps {
-    display: inline-block;
-    float: right;
-    margin: 5px auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
   }
   #book-appointment-wizard .wizard-frame {
     padding: 10px 20px;

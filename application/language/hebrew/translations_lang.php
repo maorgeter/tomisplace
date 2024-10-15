@@ -253,7 +253,7 @@ $lang['june'] = 'יוני';
 $lang['july'] = 'יולי';
 $lang['august'] = 'אוגוסט';
 $lang['september'] = 'ספטמבר';
-$lang['october'] = 'אורטובר';
+$lang['october'] = 'אוקטובר';
 $lang['november'] = 'נובמבר';
 $lang['december'] = 'דצמבר';
 $lang['previous'] = 'הקודם';
@@ -482,5 +482,5 @@ $lang['customer_is_already_booked'] = 'This customer already has an appointment 
 $lang['fields'] = 'Fields';
 $lang['invalid_credentials_provided'] = 'Invalid credentials provided, please try again.';
 $lang['calendar_url'] = 'Calendar URL';
-$lang['please_select'] = 'Please Select';
+$lang['please_select'] = 'נא לבחור';
 // End

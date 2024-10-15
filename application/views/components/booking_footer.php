@@ -9,11 +9,12 @@
 <div id="frame-footer">
     <small>
         <span class="footer-powered-by small">
-            Powered By
-            <a href="https://easyappointments.org" target="_blank">Easy!Appointments</a>
+        <a href="https://www.linkedin.com/in/maorgeter/" target="_blank">MG</a>
+            &
+            <a href="https://easyappointments.org" target="_blank">E!A</a>
         </span>
 
-        <span class="footer-options">
+        <!-- <span class="footer-options">
             <span id="select-language" class="badge bg-secondary">
                 <i class="fas fa-language me-2"></i>
                 <?= ucfirst(config('language')) ?>
@@ -26,6 +27,6 @@
                     <?= session('user_id') ? lang('backend_section') : lang('login') ?>
                 </a>
             <?php endif; ?>
-        </span>
+        </span> -->
     </small>
 </div>

@@ -18,9 +18,9 @@
                     </label>
 
                     <select id="select-service" class="form-select">
-                        <option value="">
+                        <!-- <option value="">
                             <?= lang('please_select') ?>
-                        </option>
+                        </option> -->
                         <?php
                         // Group services by category, only if there is at least one service with a parent category.
                         $has_category = false;
@@ -110,7 +110,7 @@
         <button type="button" id="button-next-1" class="btn button-next btn-dark"
                 data-step_index="1">
             <?= lang('next') ?>
-            <i class="fas fa-chevron-right ms-2"></i>
+            <i class="fas fa-chevron-left ms-2"></i>
         </button>
     </div>
 </div>
