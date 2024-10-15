@@ -10,7 +10,7 @@
     <div id="company-name">
         <img src="<?= vars('company_logo') ?: base_url('assets/img/logo.png') ?>" alt="logo" id="company-logo">
 
-        <span>
+        <!-- <span>
             <?= e($company_name) ?>
         </span>
 
@@ -21,7 +21,7 @@
             <span class="display-selected-provider invisible">
                 <?= lang('provider') ?>
             </span>
-        </div>
+        </div> -->
     </div>
 
     <div id="steps">
