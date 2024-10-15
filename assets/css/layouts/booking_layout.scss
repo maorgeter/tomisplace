@@ -249,7 +249,7 @@ body {
 #book-appointment-wizard #service-description {
     overflow-y: auto;
     clear: both;
-    max-height: 153px;
+    max-height: 350px;
     box-shadow: none;
 }
 
@@ -336,11 +336,11 @@ body {
 
     #book-appointment-wizard .footer-powered-by,
     #book-appointment-wizard .footer-options {
-        width: 50%;
+        width: 100%;
     }
 
     #book-appointment-wizard .footer-powered-by {
-        text-align: left;
+        text-align: center;
         padding: 5px 5px 5px 0;
     }
 

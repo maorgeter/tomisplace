@@ -8421,6 +8421,7 @@ textarea.form-control-lg {
 }
 
 .text-muted {
+  text-align: right;
   --bs-text-opacity: 1;
   color: var(--bs-secondary-color) !important;
 }
@@ -9880,7 +9881,7 @@ textarea.form-control-lg {
     margin-top: 1.5rem !important;
   }
   .mt-md-5 {
-    margin-top: 3rem !important;
+    margin-top: rem !important;
   }
   .mt-md-auto {
     margin-top: auto !important;

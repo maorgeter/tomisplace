@@ -6,7 +6,26 @@
  */
 ?>
 
+
 <div id="frame-footer">
+<div class="row frame-content">
+          <div class="col-4">
+            <a href="https://www.facebook.com/tominailsart/" target="_blank">
+              <img src="./assets/img/social_facebook.png?ZV947" style="max-width:50px; max-height:50px; height:100%; width:100%; display:block; margin:0 auto;">
+            </a>
+          </div>
+          <div class="col-4">
+            <a href="https://www.instagram.com/tominailsart/" target="_blank">
+              <img src="./assets/img/social_instagram.png?ZV947" style="max-width:50px; max-height:50px; height:100%; width:100%; display:block; margin:0 auto;">
+            </a>
+          </div>
+          <div class="col-4">
+            <a href="https://wa.me/972524454252" target="_blank">
+              <img src="./assets/img/social_whatsapp.png?ZV947" style="max-width:50px; max-height:50px; height:100%; width:100%; display:block; margin:0 auto;">
+            </a>
+          </div>
+        </div>
+        <br />
     <small>
         <span class="footer-powered-by small">
         <a href="https://www.linkedin.com/in/maorgeter/" target="_blank">MG</a>
