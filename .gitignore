@@ -1,3 +1,5 @@
 /config.php
-/storage/session/*
-/storage/cache/*
+/storage/sessions/*
+/storage/logs/*
+/storage/backups/*
+/storage/uploads/*
