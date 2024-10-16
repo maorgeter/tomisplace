@@ -73,8 +73,11 @@
 
     <p>
         <small>
-            Powered by
-            <a href="https://easyappointments.org">Easy!Appointments</a>
+        <span class="footer-powered-by small">
+        <a href="https://www.linkedin.com/in/maorgeter/" target="_blank">MG</a>
+            &
+            <a href="https://easyappointments.org" target="_blank">E!A</a>
+        </span>
         </small>
     </p>
 </div>

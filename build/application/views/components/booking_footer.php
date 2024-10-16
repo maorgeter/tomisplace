@@ -8,9 +8,10 @@
 
 <div id="frame-footer">
     <small>
-        <span class="footer-powered-by small">
-            Powered By
-            <a href="https://easyappointments.org" target="_blank">Easy!Appointments</a>
+    <span class="footer-powered-by small">
+        <a href="https://www.linkedin.com/in/maorgeter/" target="_blank">MG</a>
+            &
+            <a href="https://easyappointments.org" target="_blank">E!A</a>
         </span>
 
         <span class="footer-options">

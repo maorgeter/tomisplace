@@ -2975,10 +2975,10 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #439982;
+  --bs-btn-bg: #000000;
   --bs-btn-border-color: #439982;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: rgb(56.95, 130.05, 110.5);
+  --bs-btn-hover-bg: #e7dbd3;
   --bs-btn-hover-border-color: rgb(53.6, 122.4, 104);
   --bs-btn-focus-shadow-rgb: 95, 168, 149;
   --bs-btn-active-color: #fff;
@@ -10146,10 +10146,10 @@ textarea.form-control-lg {
     column-gap: 3rem !important;
   }
   .text-md-start {
-    text-align: left !important;
+    text-align: center !important;
   }
   .text-md-end {
-    text-align: right !important;
+    text-align: center !important;
   }
   .text-md-center {
     text-align: center !important;

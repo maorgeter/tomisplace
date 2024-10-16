@@ -690,7 +690,7 @@ App.Pages.Booking = (function () {
                 <div class="mb-2 fw-bold fs-3">
                     ${serviceOptionText}
                 </div> 
-                <div class="mb-2 fw-bold text-muted">
+                <div class="mb-2 fw-bold text-muted" style="text-align:center;">
                     ${providerOptionText}
                 </div>
                 <div class="mb-2">
@@ -701,10 +701,6 @@ App.Pages.Booking = (function () {
                     <i class="fas fa-clock me-2"></i>
                     ${service.duration} ${lang('minutes')}
                 </div>
-                <div class="mb-2">
-                    <i class="fas fa-globe me-2"></i>
-                    ${timezoneOptionText}
-                </div> 
                 <div class="mb-2" ${!Number(service.price) ? 'hidden' : ''}>
                     <i class="fas fa-cash-register me-2"></i>
                     ${Number(service.price).toFixed(2)} ${service.currency}
@@ -738,7 +734,7 @@ App.Pages.Booking = (function () {
                 <div class="mb-2 fw-bold fs-3">
                     ${lang('contact_info')}
                 </div>
-                <div class="mb-2 fw-bold text-muted" ${!fullName ? 'hidden' : ''}>
+                <div class="mb-2 fw-bold text-muted" ${!fullName ? 'hidden' : ''} style="text-align:center;">
                     ${fullName}
                 </div>
                 <div class="mb-2" ${!email ? 'hidden' : ''}>

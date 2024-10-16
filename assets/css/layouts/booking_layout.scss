@@ -120,6 +120,7 @@ body {
 
 #book-appointment-wizard .wizard-frame .flatpickr-calendar {
     margin: 25px auto;
+    direction: rtl;
 }
 
 #book-appointment-wizard .wizard-frame #select-time {
@@ -271,6 +272,7 @@ body {
 
 #book-appointment-wizard #wizard-frame-4 .frame-container .frame-content {
     max-width: 630px;
+    direction: rtl;
 }
 
 @media (min-width: 768px) {

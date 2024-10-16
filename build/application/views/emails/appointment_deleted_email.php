@@ -174,14 +174,11 @@
 
     <div id="footer" style="padding: 10px; text-align: center; margin-top: 10px;
                 border-top: 1px solid #EEE; background: #FAFAFA;">
-        Powered by
-        <a href="https://easyappointments.org" style="text-decoration: none;">
-            Easy!Appointments
-        </a>
-        |
-        <a href="<?= e($settings['company_link']) ?>" style="text-decoration: none;">
-            <?= e($settings['company_name']) ?>
-        </a>
+        <span class="footer-powered-by small">
+        <a href="https://www.linkedin.com/in/maorgeter/" target="_blank">MG</a>
+            &
+            <a href="https://easyappointments.org" target="_blank">E!A</a>
+        </span>
     </div>
 </div>
 

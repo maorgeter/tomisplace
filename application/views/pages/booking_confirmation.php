@@ -3,17 +3,17 @@
 <?php section('content'); ?>
 
 <div>
-    <img id="success-icon" class="mt-0 mb-5" src="<?= base_url('assets/img/success.png') ?>" alt="success"/>
+    <img id="success-icon" class="mt-0 mb-5" src="<?= base_url('assets/img/success.png') ?>" style="display: block;margin:0 auto;" alt="success"/>
 </div>
 
-<div class="mb-5">
+<div class="mb-5" style="direction: rtl; text-align: center;">
     <h4 class="mb-5"><?= lang('appointment_registered') ?></h4>
 
     <p>
         <?= lang('appointment_details_was_sent_to_you') ?>
     </p>
 
-    <p class="mb-5 text-muted">
+    <p class="mb-5 text-muted" style="direction: rtl; text-align: center;">
         <small>
             <?= lang('check_spam_folder') ?>
         </small>
