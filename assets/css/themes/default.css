@@ -5461,6 +5461,8 @@ textarea.form-control-lg {
 .modal-content {
   position: relative;
   display: flex;
+  direction: rtl;
+  text-align: right;
   flex-direction: column;
   width: 100%;
   color: var(--bs-modal-color);
