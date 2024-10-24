@@ -20,9 +20,9 @@
         <?= lang('appointment_details_title') ?> | Easy!Appointments
     </title>
 </head>
-<body style="font: 13px arial, helvetica, tahoma;" style="direction: rtl;">
+<body style="font: 13px arial, helvetica, tahoma; direction: rtl;">
 
-<div class="email-container" style="width: 650px; border: 1px solid #eee; margin: 30px auto;">
+<div class="email-container" style="width: 650px; border: 1px solid #eee; margin: 30px auto; direction: rtl;">
     <div id="header" style="background-color: #e7dbd3; height: 45px; padding: 10px 15px;">
         <strong id="logo" style="color: white; font-size: 20px; margin-top: 10px; display: inline-block">
             <?= e($settings['company_name']) ?>
