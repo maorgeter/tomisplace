@@ -18,7 +18,7 @@ root {
 /* BACKEND GENERAL ELEMENTS
    -------------------------------------------------------------------- */
 #header {
-  background-color: #429a82;
+  background-color: #e7dbd3;
   box-shadow: none;
   border-radius: 0;
   padding: 0;
@@ -53,7 +53,7 @@ root {
 }
 
 #header .nav-link {
-  color: white;
+  color: #000;
   padding: 20px 15px;
   font-weight: lighter;
 }
@@ -64,11 +64,11 @@ root {
 }
 
 #header #header-menu .nav-item:hover {
-  background: #3a8873;
+  background: #838280;
 }
 
 #header #header-menu .nav-item.active {
-  background: #2e6a5b;
+  background: #999d9c;
 }
 
 #footer {
@@ -133,7 +133,7 @@ body .modal .modal-title {
 
 body .modal-header {
   padding: 20px 15px;
-  background: #429a82;
+  background: #e7dbd3;
 }
 
 body .modal-header h3 {
@@ -239,7 +239,7 @@ body legend {
 
 .backend-page .filter-records .results .entry.selected {
   background-color: #f4f4f4;
-  border-right: 5px solid #429a82;
+  border-right: 5px solid #e7dbd3;
 }
 
 .backend-page .filter-records .results hr {
@@ -409,6 +409,8 @@ body legend {
 #calendar-page .fc-event-time {
   font-weight: bold;
   font-size: 11px;
+  text-align: center;
+  direction: ltr;
 }
 
 #calendar-page .fc-event-title {
@@ -495,7 +497,7 @@ body legend {
 }
 
 #existing-customers-list div:hover {
-  background: #429a82;
+  background: #e7dbd3;
   font-weight: bold;
   color: #fff;
   cursor: pointer;

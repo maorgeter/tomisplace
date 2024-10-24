@@ -72,7 +72,7 @@ App.Pages.Booking = (function () {
                         text: '#666666',
                     },
                     button: {
-                        background: '#429a82',
+                        background: '#e7dbd3',
                         text: '#ffffff',
                     },
                 },

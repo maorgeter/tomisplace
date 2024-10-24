@@ -33,7 +33,7 @@ body {
   overflow: auto;
   height: auto;
   padding: 20px 15px;
-  background: #429a82;
+  background: #e7dbd3;
 }
 
 #book-appointment-wizard #company-name {
@@ -161,7 +161,7 @@ body {
 }
 
 #book-appointment-wizard .active-step strong {
-  color: #429a82;
+  color: #e7dbd3;
   font-size: 21px;
 }
 
