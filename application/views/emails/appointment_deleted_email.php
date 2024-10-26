@@ -16,7 +16,7 @@
 <head>
     <title><?= lang('appointment_cancelled_title') ?> | Easy!Appointments</title>
 </head>
-<body style="font: 13px arial, helvetica, tahoma;">
+<body style="font: 13px arial, helvetica, tahoma;  direction: rtl;">
 
 <div class="email-container" style="width: 650px; border: 1px solid #eee; margin: 30px auto;">
     <div id="header" style="background-color: #e7dbd3; height: 45px; padding: 10px 15px;">
@@ -72,25 +72,6 @@
 
                 </td>
             </tr>
-            <tr>
-                <td class="label" style="padding: 3px;font-weight: bold;">
-                    <?= lang('timezone') ?>
-                </td>
-                <td style="padding: 3px;">
-                    <?= format_timezone($timezone) ?>
-                </td>
-            </tr>
-
-            <?php if (!empty($appointment['status'])): ?>
-                <tr>
-                    <td class="label" style="padding: 3px;font-weight: bold;">
-                        <?= lang('status') ?>
-                    </td>
-                    <td style="padding: 3px;">
-                        <?= e($appointment['status']) ?>
-                    </td>
-                </tr>
-            <?php endif; ?>
 
             <tr>
                 <td class="label" style="padding: 3px;font-weight: bold;">
@@ -151,14 +132,6 @@
                 </td>
                 <td style="padding: 3px;">
                     <?= e($customer['phone_number']) ?>
-                </td>
-            </tr>
-            <tr>
-                <td class="label" style="padding: 3px;font-weight: bold;">
-                    <?= lang('address') ?>
-                </td>
-                <td style="padding: 3px;">
-                    <?= e($customer['address']) ?>
                 </td>
             </tr>
         </table>
