@@ -2,14 +2,16 @@
 
 <?php section('content'); ?>
 
-<div>
-    <img id="message-icon" class="mt-0 mb-5" src="<?= vars('message_icon') ?>" alt="warning" style="text-align:center;">
-</div>
+<div style="text-align:center; direction:rtl;">
+    <div>
+        <img id="message-icon" class="mt-0 mb-5" src="<?= vars('message_icon') ?>" alt="warning" style="display:block; margin:0 auto;">
+    </div>
 
-<div class="mb-5" style="text-align:center;">
-    <h4 class="mb-5"><?= vars('message_title') ?></h4>
+    <div class="mb-5">
+        <h4 class="mb-5"><?= vars('message_title') ?></h4>
 
-    <p><?= vars('message_text') ?></p>
+        <p><?= vars('message_text') ?></p>
+    </div>
 </div>
 
 <?php end_section('content'); ?>
@@ -23,4 +25,3 @@
 ]); ?>
 
 <?php end_section('scripts'); ?>
-
