@@ -3,10 +3,10 @@
 <?php section('content'); ?>
 
 <div>
-    <img id="message-icon" class="mt-0 mb-5" src="<?= vars('message_icon') ?>" alt="warning">
+    <img id="message-icon" class="mt-0 mb-5" src="<?= vars('message_icon') ?>" alt="warning" style="text-align:center;">
 </div>
 
-<div class="mb-5">
+<div class="mb-5" style="text-align:center;">
     <h4 class="mb-5"><?= vars('message_title') ?></h4>
 
     <p><?= vars('message_text') ?></p>
