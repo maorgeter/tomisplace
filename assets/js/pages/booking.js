@@ -903,12 +903,13 @@ App.Pages.Booking = (function () {
 
         const additionalInfoParts = [];
 
-        if (service.duration) {
-            additionalInfoParts.push(`${lang('duration')}: ${service.duration} ${lang('minutes')}`);
-        }
+        // if (service.duration) {
+        //     additionalInfoParts.push(`${lang('duration')}: ${service.duration} ${lang('minutes')}`);
+        // }
+        // remove service duration from customers description
 
         if (Number(service.price) > 0) {
-            additionalInfoParts.push(`${lang('price')}: ${Number(service.price).toFixed(2)} ${service.currency}`);
+            additionalInfoParts.push(`${lang('price')}: ${service.currency}${Number(service.price).toFixed(2)}`);
         }
 
         if (service.location) {
@@ -917,7 +918,7 @@ App.Pages.Booking = (function () {
 
         if (additionalInfoParts.length) {
             $(`
-                <div class="mb-2 fst-italic">
+                <div class="mb-2 fst-italic" style="text-align:left;">
                     ${additionalInfoParts.join(', ')}
                 </div>
             `).appendTo($serviceDescription);

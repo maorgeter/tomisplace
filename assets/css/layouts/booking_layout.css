@@ -248,6 +248,7 @@ body {
   clear: both;
   max-height: 350px;
   box-shadow: none;
+  direction: rtl;
 }
 
 #book-appointment-wizard #select-language,
